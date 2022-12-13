@@ -1,1 +1,1 @@
-# Deep-Learning-Machine-Learning-Tasks
+# Deep Learning and Machine Learning Tasks
