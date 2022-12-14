@@ -1,0 +1,13 @@
+# Some Usefull Code
+
+- Count missing value of data <br>
+```
+dataFrame.isna().sum()
+```
+
+- Create some condition and get the index to make it a new dataFrame <br>
+Dataset (Kaggle) : [winemag-data-130k-v2.csv](https://www.kaggle.com/datasets/zynicide/wine-reviews) <br>
+```
+italian_wines = reviews.loc[reviews.country == 'Italy']
+top_oceania_wines = reviews.loc[(reviews.country.isin(['Australia', 'New Zealand'])) & (reviews.points >= 95)]
+```
