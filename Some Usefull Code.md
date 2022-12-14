@@ -11,3 +11,8 @@ Dataset (Kaggle) : [winemag-data-130k-v2.csv](https://www.kaggle.com/datasets/zy
 italian_wines = reviews.loc[reviews.country == 'Italy']
 top_oceania_wines = reviews.loc[(reviews.country.isin(['Australia', 'New Zealand'])) & (reviews.points >= 95)]
 ```
+
+- Get all unique value of columns
+```
+reviews.country.unique()
+```
