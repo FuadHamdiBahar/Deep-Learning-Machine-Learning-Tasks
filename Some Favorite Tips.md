@@ -1,4 +1,4 @@
-# Deep Learning and Machine Learning Tasks
+# Some Favorite Code
 
-## Usefull Tools
-[![USEFULL TOOLS](https://skillicons.dev/icons?i=python,tensorflow,vscode)](https://skillicons.dev)
+Count missing value of data <br>
+dataFrame.isna().sum()
