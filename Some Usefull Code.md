@@ -16,3 +16,8 @@ top_oceania_wines = reviews.loc[(reviews.country.isin(['Australia', 'New Zealand
 ```
 reviews.country.unique()
 ```
+
+- Get number of label and its destribution
+```
+df.<column_name>.value_counts()
+```
