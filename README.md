@@ -27,3 +27,12 @@ reviews.<LABEL>.unique()
 df.<LABEL>.value_counts()
 ```
 
+- Convert spesific pandas dataframe to numpy array
+```
+df.iloc[:, :-1].values
+```
+
+- One Hot Encoding by pandas
+```
+pd.get_dummies(<VARIABLE>)
+```
