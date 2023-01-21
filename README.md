@@ -19,6 +19,11 @@ top_oceania_wines = reviews.loc[(reviews.country.isin(['Australia', 'New Zealand
 
 - Get all unique value of columns
 ```
-reviews.country.unique()
+reviews.<LABEL>.unique()
+```
+
+- Get sum of all the label
+```
+df.<LABEL>.value_counts()
 ```
 
