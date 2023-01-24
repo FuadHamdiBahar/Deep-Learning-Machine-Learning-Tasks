@@ -36,3 +36,8 @@ df.iloc[:, :-1].values
 ```
 pd.get_dummies(<VARIABLE>)
 ```
+
+- Auto multi color scatter plot using seaborn
+```
+sns.seaborn(x, y, hue=<LABEL_VARIABLE>)
+```
