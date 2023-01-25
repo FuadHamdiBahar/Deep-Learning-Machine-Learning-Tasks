@@ -14,10 +14,35 @@ top_oceania_wines = reviews.loc[(reviews.country.isin(['Australia', 'New Zealand
 
 - Get all unique value of columns
 ```
-reviews.country.unique()
+reviews.<LABEL>.unique()
 ```
 
-- Get number of label and its destribution
+- Get sum of all the label
 ```
-df.<column_name>.value_counts()
+df.<LABEL>.value_counts()
+```
+
+- Convert spesific pandas dataframe to numpy array
+```
+df.iloc[:, :-1].values
+```
+
+- One Hot Encoding by pandas
+```
+pd.get_dummies(<VARIABLE>)
+```
+
+- Auto multi color scatter plot using seaborn
+```
+sns.seaborn(x, y, hue=<LABEL_VARIABLE>)
+```
+
+- Create data
+```
+make_classification(n_features=<JUMLAH_KOLOM>, n_classes=<JUMLAH_CLASS>)
+```
+
+- Create dataFrame frim dict
+```
+pd.DataFrame.from_dict(<DICTIONARY>)
 ```
