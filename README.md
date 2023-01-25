@@ -41,3 +41,8 @@ pd.get_dummies(<VARIABLE>)
 ```
 sns.seaborn(x, y, hue=<LABEL_VARIABLE>)
 ```
+
+- Create data
+```
+make_classification(n_features=<JUMLAH_KOLOM>, n_classes=<JUMLAH_CLASS>)
+```
