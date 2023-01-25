@@ -46,3 +46,8 @@ sns.seaborn(x, y, hue=<LABEL_VARIABLE>)
 ```
 make_classification(n_features=<JUMLAH_KOLOM>, n_classes=<JUMLAH_CLASS>)
 ```
+
+- Create dataFrame frim dict
+```
+pd.DataFrame.from_dict(<DICTIONARY>)
+```
